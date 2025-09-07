@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoGem</title>
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>CryptoGem</h1>
+  <div class="header-right">
+    <button class="lang-toggle" onclick="toggleLang()">EN</button>
+    <nav>
+      <a href="#prices">قیمت‌ها</a>
+      <a href="#trending">ترندها</a>
+      <a href="#news">اخبار</a>
+      <a href="#contact">تماس</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>کریپتو داشبورد</h2>
+    <p>جدیدترین قیمت‌ها، نمودارها و اخبار رمز ارزها</p>
+  </div>
+</section>
+
+<section id="prices">
+  <h3>قیمت رمزارزها</h3>
+  <div class="crypto-table">
+    <table>
+      <thead>
+        <tr>
+          <th>نام</th>
+          <th>قیمت</th>
+          <th>روزانه %</th>
+          <th>معاملات روزانه</th>
+          <th>ارزش بازار</th>
+          <th>هفتگی %</th>
+          <th>نمودار</th>
+        </tr>
+      </thead>
+      <tbody id="crypto-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="trending">
+  <h3>ارزهای ترند</h3>
+  <div class="grid" id="trending-grid"></div>
+</section>
+
+<section id="news">
+  <h3>اخبار فوری</h3>
+  <ul id="news-list"></ul>
+</section>
+
+<section id="contact">
+  <h3>تماس با ما</h3>
+  <p>ایمیل: support@cryptogem.com</p>
+  <p>تلفن: +98 912 345 6789</p>
+  <p>آدرس: تهران، ایران</p>
+  <div class="social">
+    <a href="#">فیسبوک</a>
+    <a href="#">توییتر</a>
+    <a href="#">اینستاگرام</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 CryptoGem - نسخه مدرن</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
